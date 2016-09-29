@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" time="1.313" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" time="1.328" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.102-b14"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/lachavez/Documents/CSt438/git/lc-hangman"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lachavez/Documents/cst438/git/lc-hangman"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -62,8 +62,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testStart" time="0.973"/>
-  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithoutParams" time="0.14"/>
-  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithWrongOldPatternOldGuesses" time="0.111"/>
-  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithCorrectOldPatternOldGuesses" time="0.089"/>
+  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testStart" time="0.948"/>
+  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithoutParams" time="0.134"/>
+  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithWrongOldPatternOldGuesses" time="0.135"/>
+  <testcase classname="edu.csumb.cst438fa16.hangman.rest.HangmanResourceTest" name="testMatchWithCorrectOldPatternOldGuesses" time="0.111"/>
 </testsuite>

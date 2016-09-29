@@ -38,7 +38,7 @@ public class HangmanIT {
     /**
      * Acceptance test:
      * 
-     *    Given I am on the hangman page
+     *    Given I am on the hangman page and the pattern is "cat"
      *    When I submit multiple letters at one time
      *    Then any letters that exist in 'pattern' should be updated accordingly
      *          as well as old guesses.
@@ -48,8 +48,7 @@ public class HangmanIT {
     public void testAppendGuess(){
         driver.findElement(By.id("newGuesses")).sendKeys("abc");
         driver.findElement(By.id("submit")).click();
-        
-        // Given pattern = "cat"
+
         (new WebDriverWait(driver, 10)).until(ExpectedConditions.textToBe(By.id("oldGuesses"), "abc"));
         ExpectedConditions.textToBe(By.id("pattern"), "ca.");
     }
